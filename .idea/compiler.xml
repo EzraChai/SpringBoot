@@ -23,6 +23,7 @@
         <module name="004-springboot-properties-yml-yaml" />
         <module name="008-springboot-custom-configuration" />
         <module name="011-springboot-mybatis" />
+        <module name="024-springboot-java-1" />
         <module name="001-spirngboot-first" />
         <module name="006-springboot-multi-enviroments-properties" />
         <module name="002-springboot-springmvc" />
@@ -60,6 +61,7 @@
       <module name="021-springboot-dubbo-ssm-interface" target="15" />
       <module name="022-springboot-dubbo-ssm-provider" target="15" />
       <module name="023-springboot-dubbo-ssm-consumer" target="15" />
+      <module name="024-springboot-java-1" target="15" />
       <module name="SpringBoot" target="11" />
     </bytecodeTargetLevel>
   </component>
@@ -88,6 +90,7 @@
       <module name="020-springboot-dubbo-consumer" options="-parameters" />
       <module name="022-springboot-dubbo-ssm-provider" options="-parameters" />
       <module name="023-springboot-dubbo-ssm-consumer" options="-parameters" />
+      <module name="024-springboot-java-1" options="-parameters" />
       <module name="SpringBoot" options="-parameters" />
     </option>
   </component>

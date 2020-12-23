@@ -28,6 +28,7 @@
         <option value="$PROJECT_DIR$/021-springboot-dubbo-ssm-interface/pom.xml" />
         <option value="$PROJECT_DIR$/022-springboot-dubbo-ssm-provider/pom.xml" />
         <option value="$PROJECT_DIR$/023-springboot-dubbo-ssm-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/024-springboot-java-1/pom.xml" />
       </list>
     </option>
   </component>
