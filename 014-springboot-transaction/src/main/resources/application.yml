@@ -1,0 +1,7 @@
+#设置连接数据库的配置
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/springboot?useUnicode=true&CharacterEncoding=UTF-8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=Asia/Kuala_Lumpur
+    username: root
+    password: D9806f2a2b
