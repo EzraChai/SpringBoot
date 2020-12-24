@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/034-springboot-war" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
@@ -29,6 +32,16 @@
         <option value="$PROJECT_DIR$/022-springboot-dubbo-ssm-provider/pom.xml" />
         <option value="$PROJECT_DIR$/023-springboot-dubbo-ssm-consumer/pom.xml" />
         <option value="$PROJECT_DIR$/024-springboot-java-1/pom.xml" />
+        <option value="$PROJECT_DIR$/025-springboot-java-2/pom.xml" />
+        <option value="$PROJECT_DIR$/026-springboot-modify-logo/pom.xml" />
+        <option value="$PROJECT_DIR$/027-springboot-interceptor/pom.xml" />
+        <option value="$PROJECT_DIR$/028-springboot-servlet-1/pom.xml" />
+        <option value="$PROJECT_DIR$/029-springboot-servlet-2/pom.xml" />
+        <option value="$PROJECT_DIR$/030-spingboot-filter-1/pom.xml" />
+        <option value="$PROJECT_DIR$/031-springboot-filter-2/pom.xml" />
+        <option value="$PROJECT_DIR$/032-springboot-character-encoding-1/pom.xml" />
+        <option value="$PROJECT_DIR$/033-springboot-character-encoding-2/pom.xml" />
+        <option value="$PROJECT_DIR$/034-springboot-war/pom.xml" />
       </list>
     </option>
   </component>

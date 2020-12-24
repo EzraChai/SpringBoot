@@ -8,8 +8,11 @@
         <outputRelativeToContentRoot value="true" />
         <module name="017-springboot-redis" />
         <module name="005-springboot-allboth-properties-yml" />
+        <module name="031-springboot-filter-2" />
+        <module name="028-springboot-servlet-1" />
         <module name="SpringBoot" />
         <module name="022-springboot-dubbo-ssm-provider" />
+        <module name="027-springboot-interceptor" />
         <module name="010-springboot-jsp" />
         <module name="023-springboot-dubbo-ssm-consumer" />
         <module name="012-springboot-mybatis-3" />
@@ -17,15 +20,22 @@
         <module name="001-springboot-first-version" />
         <module name="014-springboot-transaction" />
         <module name="015-springboot-springmvc" />
+        <module name="034-springboot-war" />
         <module name="016-springboot-restful" />
         <module name="020-springboot-dubbo-consumer" />
+        <module name="032-springboot-character-encoding-1" />
         <module name="021-springboot-dubbo-ssm-interface" />
         <module name="004-springboot-properties-yml-yaml" />
         <module name="008-springboot-custom-configuration" />
+        <module name="033-springboot-character-encoding-2" />
         <module name="011-springboot-mybatis" />
+        <module name="030-spingboot-filter-1" />
         <module name="024-springboot-java-1" />
+        <module name="029-springboot-servlet-2" />
         <module name="001-spirngboot-first" />
+        <module name="026-springboot-modify-logo" />
         <module name="006-springboot-multi-enviroments-properties" />
+        <module name="025-springboot-java-2" />
         <module name="002-springboot-springmvc" />
         <module name="001-springboot-first" />
         <module name="018-springboot-dubbo-interface" />
@@ -62,6 +72,16 @@
       <module name="022-springboot-dubbo-ssm-provider" target="15" />
       <module name="023-springboot-dubbo-ssm-consumer" target="15" />
       <module name="024-springboot-java-1" target="15" />
+      <module name="025-springboot-java-2" target="15" />
+      <module name="026-springboot-modify-logo" target="15" />
+      <module name="027-springboot-interceptor" target="15" />
+      <module name="028-springboot-servlet-1" target="15" />
+      <module name="029-springboot-servlet-2" target="15" />
+      <module name="030-spingboot-filter-1" target="15" />
+      <module name="031-springboot-filter-2" target="15" />
+      <module name="032-springboot-character-encoding-1" target="15" />
+      <module name="033-springboot-character-encoding-2" target="15" />
+      <module name="034-springboot-war" target="15" />
       <module name="SpringBoot" target="11" />
     </bytecodeTargetLevel>
   </component>
@@ -91,6 +111,16 @@
       <module name="022-springboot-dubbo-ssm-provider" options="-parameters" />
       <module name="023-springboot-dubbo-ssm-consumer" options="-parameters" />
       <module name="024-springboot-java-1" options="-parameters" />
+      <module name="025-springboot-java-2" options="-parameters" />
+      <module name="026-springboot-modify-logo" options="-parameters" />
+      <module name="027-springboot-interceptor" options="-parameters" />
+      <module name="028-springboot-servlet-1" options="-parameters" />
+      <module name="029-springboot-servlet-2" options="-parameters" />
+      <module name="030-spingboot-filter-1" options="-parameters" />
+      <module name="031-springboot-filter-2" options="-parameters" />
+      <module name="032-springboot-character-encoding-1" options="-parameters" />
+      <module name="033-springboot-character-encoding-2" options="-parameters" />
+      <module name="034-springboot-war" options="-parameters" />
       <module name="SpringBoot" options="-parameters" />
     </option>
   </component>

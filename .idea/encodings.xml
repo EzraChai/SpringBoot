@@ -32,5 +32,15 @@
     <file url="file://$PROJECT_DIR$/022-springboot-dubbo-ssm-provider/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/023-springboot-dubbo-ssm-consumer/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/024-springboot-java-1/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/025-springboot-java-2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/026-springboot-modify-logo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/027-springboot-interceptor/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/028-springboot-servlet-1/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/029-springboot-servlet-2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/030-spingboot-filter-1/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/031-springboot-filter-2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/032-springboot-character-encoding-1/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/033-springboot-character-encoding-2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/034-springboot-war/src/main/java" charset="UTF-8" />
   </component>
 </project>

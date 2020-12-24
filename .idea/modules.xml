@@ -27,6 +27,16 @@
       <module fileurl="file://$PROJECT_DIR$/022-springboot-dubbo-ssm-provider/022-springboot-dubbo-ssm-provider.iml" filepath="$PROJECT_DIR$/022-springboot-dubbo-ssm-provider/022-springboot-dubbo-ssm-provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/023-springboot-dubbo-ssm-consumer/023-springboot-dubbo-ssm-consumer.iml" filepath="$PROJECT_DIR$/023-springboot-dubbo-ssm-consumer/023-springboot-dubbo-ssm-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/024-springboot-java-1/024-springboot-java-1.iml" filepath="$PROJECT_DIR$/024-springboot-java-1/024-springboot-java-1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/025-springboot-java-2/025-springboot-java-2.iml" filepath="$PROJECT_DIR$/025-springboot-java-2/025-springboot-java-2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/026-springboot-modify-logo/026-springboot-modify-logo.iml" filepath="$PROJECT_DIR$/026-springboot-modify-logo/026-springboot-modify-logo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/027-springboot-interceptor/027-springboot-interceptor.iml" filepath="$PROJECT_DIR$/027-springboot-interceptor/027-springboot-interceptor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/028-springboot-servlet-1/028-springboot-servlet-1.iml" filepath="$PROJECT_DIR$/028-springboot-servlet-1/028-springboot-servlet-1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/029-springboot-servlet-2/029-springboot-servlet-2.iml" filepath="$PROJECT_DIR$/029-springboot-servlet-2/029-springboot-servlet-2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/030-spingboot-filter-1/030-spingboot-filter-1.iml" filepath="$PROJECT_DIR$/030-spingboot-filter-1/030-spingboot-filter-1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/031-springboot-filter-2/031-springboot-filter-2.iml" filepath="$PROJECT_DIR$/031-springboot-filter-2/031-springboot-filter-2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/032-springboot-character-encoding-1/032-springboot-character-encoding-1.iml" filepath="$PROJECT_DIR$/032-springboot-character-encoding-1/032-springboot-character-encoding-1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/033-springboot-character-encoding-2/033-springboot-character-encoding-2.iml" filepath="$PROJECT_DIR$/033-springboot-character-encoding-2/033-springboot-character-encoding-2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/034-springboot-war/034-springboot-war.iml" filepath="$PROJECT_DIR$/034-springboot-war/034-springboot-war.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot.iml" filepath="$PROJECT_DIR$/SpringBoot.iml" />
     </modules>
   </component>
