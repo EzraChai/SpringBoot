@@ -37,6 +37,22 @@
       <module fileurl="file://$PROJECT_DIR$/032-springboot-character-encoding-1/032-springboot-character-encoding-1.iml" filepath="$PROJECT_DIR$/032-springboot-character-encoding-1/032-springboot-character-encoding-1.iml" />
       <module fileurl="file://$PROJECT_DIR$/033-springboot-character-encoding-2/033-springboot-character-encoding-2.iml" filepath="$PROJECT_DIR$/033-springboot-character-encoding-2/033-springboot-character-encoding-2.iml" />
       <module fileurl="file://$PROJECT_DIR$/034-springboot-war/034-springboot-war.iml" filepath="$PROJECT_DIR$/034-springboot-war/034-springboot-war.iml" />
+      <module fileurl="file://$PROJECT_DIR$/035-springboot-jar/035-springboot-jar.iml" filepath="$PROJECT_DIR$/035-springboot-jar/035-springboot-jar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/036-springboot-logback/036-springboot-logback.iml" filepath="$PROJECT_DIR$/036-springboot-logback/036-springboot-logback.iml" />
+      <module fileurl="file://$PROJECT_DIR$/040-springboot-thymeleaf-first/040-springboot-thymeleaf-first.iml" filepath="$PROJECT_DIR$/040-springboot-thymeleaf-first/040-springboot-thymeleaf-first.iml" />
+      <module fileurl="file://$PROJECT_DIR$/041-springboot-thymeleaf-second/041-springboot-thymeleaf-second.iml" filepath="$PROJECT_DIR$/041-springboot-thymeleaf-second/041-springboot-thymeleaf-second.iml" />
+      <module fileurl="file://$PROJECT_DIR$/042-springboot-thymeleaf-expression/042-springboot-thymeleaf-expression.iml" filepath="$PROJECT_DIR$/042-springboot-thymeleaf-expression/042-springboot-thymeleaf-expression.iml" />
+      <module fileurl="file://$PROJECT_DIR$/043-springboot-thymeleaf/043-springboot-thymeleaf.iml" filepath="$PROJECT_DIR$/043-springboot-thymeleaf/043-springboot-thymeleaf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/044-springboot-thymeleaf-ifstament/044-springboot-thymeleaf-ifstament.iml" filepath="$PROJECT_DIR$/044-springboot-thymeleaf-ifstament/044-springboot-thymeleaf-ifstament.iml" />
+      <module fileurl="file://$PROJECT_DIR$/045-springboot-thymeleaf-inline/045-springboot-thymeleaf-inline.iml" filepath="$PROJECT_DIR$/045-springboot-thymeleaf-inline/045-springboot-thymeleaf-inline.iml" />
+      <module fileurl="file://$PROJECT_DIR$/046-springboot-thymeleaf-literal/046-springboot-thymeleaf-literal.iml" filepath="$PROJECT_DIR$/046-springboot-thymeleaf-literal/046-springboot-thymeleaf-literal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/047-springboot-thymeleaf-operator/047-springboot-thymeleaf-operator.iml" filepath="$PROJECT_DIR$/047-springboot-thymeleaf-operator/047-springboot-thymeleaf-operator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/048-springboot-thymeleaf/048-springboot-thymeleaf.iml" filepath="$PROJECT_DIR$/048-springboot-thymeleaf/048-springboot-thymeleaf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/049-springboot-thymeleaf-function/049-springboot-thymeleaf-function.iml" filepath="$PROJECT_DIR$/049-springboot-thymeleaf-function/049-springboot-thymeleaf-function.iml" />
+      <module fileurl="file://$PROJECT_DIR$/050-springboot-parent/050-springboot-parent.iml" filepath="$PROJECT_DIR$/050-springboot-parent/050-springboot-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/051-springboot-dubbo-ssm-interface/051-springboot-dubbo-ssm-interface.iml" filepath="$PROJECT_DIR$/051-springboot-dubbo-ssm-interface/051-springboot-dubbo-ssm-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/052-springboot-dubbo-ssm-provider/052-springboot-dubbo-ssm-provider.iml" filepath="$PROJECT_DIR$/052-springboot-dubbo-ssm-provider/052-springboot-dubbo-ssm-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/053-springboot-dubbo-ssm-consumer/053-springboot-dubbo-ssm-consumer.iml" filepath="$PROJECT_DIR$/053-springboot-dubbo-ssm-consumer/053-springboot-dubbo-ssm-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot.iml" filepath="$PROJECT_DIR$/SpringBoot.iml" />
     </modules>
   </component>

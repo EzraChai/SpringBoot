@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Index</title>
+</head>
+<body>
+<h1>从Session中获取值</h1>
+<span th:text="${#session.getAttribute('data')}"></span><br>
+<span th:text="${#httpSession.getAttribute('data')}"></span><br>
+<span th:text="${session.data}"></span><br>
+
+<script type="text/javascript" th:inline="javascript">
+    window.onload = function () {
+        //  http://localhost:8080/springboot/user/detail
+        //获取协议名称
+        let scheme = [[${#request.getScheme()}]]
+
+        //获取服务名称
+        let serverName = [[${#request.getServerName()}]]
+
+        //获取服务器端口号
+        let serverPort = [[${#request.getServerPort()}]]
+
+        //获取上下文根
+        let contextPath = [[${#request.getContextPath()}]]
+
+        //全路径
+        let allPath = scheme + "://" + serverName + ":" + serverPort + contextPath
+        alert(allPath)
+
+        let requestURL = [[${#httpServletRequest.requestURL}]]
+        //获取参数
+        let queryString = [[${#httpServletRequest.queryString}]]
+
+        let requestAddress = requestURL+'?'+queryString
+
+        alert("Request URL == " + requestURL)
+        alert("QueryString == " + queryString)
+        alert("RequestAddress === " + requestAddress)
+
+    }
+</script>
+</body>
+</html>

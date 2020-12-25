@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Splice·字符串拼接</title>
+</head>
+<style>
+    /* Place the navbar at the bottom of the page, and make it stick */
+    .navbar{
+        background-color: #333;
+        overflow: hidden;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        font-size: 20px;
+        text-align: center;
+    }
+</style>
+<body>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi aperiam at consectetur delectus eligendi et eum inventore laborum, nam pariatur perferendis praesentium provident quisquam quo quos sint, totam vero voluptatibus?</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ab accusamus ad aliquam cupiditate eum fugit in, ipsam itaque magnam nobis non obcaecati perspiciatis repellendus similique totam vitae. Autem, nobis.</p>
+<h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae consectetur eos omnis quae! Accusamus aperiam deleniti dolores fugiat fugit molestiae, nam quaerat quibusdam saepe veniam? Architecto fuga obcaecati sint voluptatem?</h1>
+<h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A deleniti dicta ea excepturi facilis id illum natus, optio pariatur perspiciatis praesentium quisquam repudiandae tempora ullam ut vero voluptas! Totam, voluptatibus?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam beatae ducimus ea eveniet facilis itaque, libero maiores maxime nesciunt nisi officia optio quae quas quis sapiente ut voluptates? Impedit, voluptatem?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ad aperiam assumenda commodi consequatur delectus dolor eligendi esse ipsam, molestias nobis non nulla, odit rem repellendus rerum, sapiente sunt voluptatibus!lorem  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi dolores exercitationem in nam pariatur? Alias aperiam aut corporis cum cumque dolore ducimus est eum in ipsam non omnis, sequi veniam?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab architecto asperiores beatae consectetur earum eos facere magnam magni maiores maxime, neque optio perspiciatis porro quam quasi quisquam rem reprehenderit voluptas.lorem</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A adipisci aliquam aliquid at atque consequatur earum est exercitationem iusto mollitia nesciunt odit, officiis placeat quam quas quisquam quo repellat voluptates!lorem   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores dolorem id iste necessitatibus optio quae rem! Ad asperiores autem dolor, enim eum harum laudantium molestiae non quidem quos tempore temporibus!lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum esse eum facere fugiat inventore laboriosam minus mollitia nesciunt, optio? Consequuntur dolorem doloremque eaque qui quod ut, veritatis voluptas? Molestiae, mollitia. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aut eius illum iste modi omnis optio perferendis praesentium velit veritatis. Atque autem facere id iure odio quia tenetur voluptates? Eveniet. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus cumque delectus deserunt dolorem esse expedita non omnis optio provident voluptatibus? Asperiores blanditiis dignissimos eligendi molestias nisi officiis qui, quibusdam temporibus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, accusantium adipisci alias aliquid at commodi culpa deleniti distinctio explicabo facere incidunt magni maiores minima, necessitatibus nesciunt porro quidem quos repellendus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad adipisci dolores eaque eius enim eum ex expedita id ipsam odio perspiciatis possimus praesentium quae quis ratione, repellat totam ut vero. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, et expedita fugiat officia quasi ut? Commodi, distinctio ea earum facere fugit incidunt inventore iste iusto nulla numquam praesentium, recusandae vel.</p>
+<!--太麻烦,不管用-->
+<!--<div class="navbar">-->
+<!--    <span th:text="'共'+${totalRows}+'条'+${totalPage}+'页  当前页面为'+${currentPage}+'  首页  上一页  下一页  尾页 '">共120条12页 当前页面为1 首页 上一页 下一页 尾页</span>-->
+<!--</div>-->
+<h1>使用更优雅的方式来拼接字符串：|要拼接的字符串|</h1>
+<div class="navbar">
+    <span th:text="|共${totalPage}条${totalRows}页 当前页面为${currentPage} 首页 上一页 下一页 尾页|">共120条12页 当前页面为1 首页 上一页 下一页 尾页</span>
+</div>
+</body>
+</html>

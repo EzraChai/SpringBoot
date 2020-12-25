@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Operator</title>
+</head>
+<body>
+<h1>三元运算符 表达式?正确：错误</h1>
+<div th:text="${sex eq 1 ? '男':'女'}"></div>
+<br><br>
+
+<h1>算数运算</h1>
+<h3>
+    20+5=<span th:text="20+5"></span><br>
+    20-5=<span th:text="20-5"></span><br>
+    20*5=<span th:text="20*5"></span><br>
+    20/5=<span th:text="20/5"></span>
+</h3>
+<br>
+<h1>关系比较</h1>
+5 > 2 = <span th:if=" 5 > 2">True</span><br>
+5 < 2 = <span th:if="5 < 2">True</span><br>
+1 >= 1 = <span th:if="1 >= 1" >True</span><br>
+1 <= 1 = <span th:if="1 <= 1" >True</span><br>
+
+<h1>相等判断</h1>
+<span th:if="${sex == 1}">男</span><br>
+<span th:if="${sex eq 1}">男</span><br>
+<span th:if="${sex != 1}">女</span><br>
+</body>
+</html>

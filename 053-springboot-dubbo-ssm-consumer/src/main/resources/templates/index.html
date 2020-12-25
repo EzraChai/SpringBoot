@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Index</title>
+</head>
+<body>
+<h2 align="center">Check Student's Detail</h2>
+<div align="center" class="studentDetail">
+    <input type="text" placeholder="Student's ID" id="studentId">
+    <input type="submit" value="Submit" th:onclick="submit()">
+</div>
+</body>
+<script type="text/javascript" th:inline="javascript">
+    function submit() {
+        let studentId = document.getElementById("studentId").value;
+        window.location.href = "/student/detail/" + studentId;
+    }
+</script>
+</html>

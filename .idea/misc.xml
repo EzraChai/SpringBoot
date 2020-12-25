@@ -42,6 +42,21 @@
         <option value="$PROJECT_DIR$/032-springboot-character-encoding-1/pom.xml" />
         <option value="$PROJECT_DIR$/033-springboot-character-encoding-2/pom.xml" />
         <option value="$PROJECT_DIR$/034-springboot-war/pom.xml" />
+        <option value="$PROJECT_DIR$/035-springboot-jar/pom.xml" />
+        <option value="$PROJECT_DIR$/036-springboot-logback/pom.xml" />
+        <option value="$PROJECT_DIR$/040-springboot-thymeleaf-first/pom.xml" />
+        <option value="$PROJECT_DIR$/041-springboot-thymeleaf-second/pom.xml" />
+        <option value="$PROJECT_DIR$/042-springboot-thymeleaf-expression/pom.xml" />
+        <option value="$PROJECT_DIR$/043-springboot-thymeleaf/pom.xml" />
+        <option value="$PROJECT_DIR$/044-springboot-thymeleaf-ifstament/pom.xml" />
+        <option value="$PROJECT_DIR$/045-springboot-thymeleaf-inline/pom.xml" />
+        <option value="$PROJECT_DIR$/046-springboot-thymeleaf-literal/pom.xml" />
+        <option value="$PROJECT_DIR$/047-springboot-thymeleaf-operator/pom.xml" />
+        <option value="$PROJECT_DIR$/048-springboot-thymeleaf/pom.xml" />
+        <option value="$PROJECT_DIR$/049-springboot-thymeleaf-function/pom.xml" />
+        <option value="$PROJECT_DIR$/050-springboot-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/052-springboot-dubbo-ssm-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/053-springboot-dubbo-ssm-consumer/pom.xml" />
       </list>
     </option>
   </component>

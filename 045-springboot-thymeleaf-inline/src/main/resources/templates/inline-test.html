@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>内敛表达式</title>
+</head>
+<body>
+    <div th:text="${data}"></div>
+<h3 th:text="${data}"></h3>
+
+<h1>内敛文本：th:inline="text"</h1>
+<div th:inline="text">
+    数据：[[${data}]]
+    <div th:inline="text">2021女朋友：[[${girlfriend}]]</div>
+</div>
+    <br>
+<h1>内敛javascript脚本：th:inline"javascript"</h1>
+<script type="text/javascript" th:inline="javascript">
+    function showGirlfriend(){
+        //alert(${girlfriend})
+        alert("2021女朋友：" + [[${girlfriend}]])
+    }
+</script>
+<button th:onclick="showGirlfriend()">展示女朋友</button>
+</body>
+</html>

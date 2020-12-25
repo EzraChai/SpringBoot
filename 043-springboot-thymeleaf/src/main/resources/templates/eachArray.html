@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>循环遍历Array数组</title>
+</head>
+<body>
+<h1>循环遍历Array数组（使用方法和list一样）</h1>
+    <div th:each="user,userState:${userArray}">
+        index: <span th:text="${userState.index}"></span>
+        count: <span th:text="${userState.count}"></span>
+        <span th:text="${user.id}"></span>
+        <span th:text="${user.name}"></span>
+        <span th:text="${user.phone}"></span>
+        <span th:text="${user.address}"></span>
+    </div>
+</body>
+</html>
