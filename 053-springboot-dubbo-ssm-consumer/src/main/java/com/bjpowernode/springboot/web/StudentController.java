@@ -24,7 +24,9 @@ public class StudentController {
     }
 
     @RequestMapping("/")
-    public String index(){
+    public String index(Model model){
+        int studentCount = studentService.queryStudentCount();
+        model.addAttribute("studentCount",studentCount);
         return "index";
     }
 }

@@ -68,4 +68,8 @@
       age = #{age,jdbcType=INTEGER}
     where id = #{id,jdbcType=INTEGER}
   </update>
+
+  <select id="studentCount" resultType="int">
+    select count(*) from student
+  </select>
 </mapper>

@@ -4,17 +4,60 @@
     <meta charset="UTF-8">
     <title>Index</title>
 </head>
+<script type="text/javascript" th:src="@{/js/jquery3.5.1.js}"></script>
+<script type="text/javascript">
+    $(function () {
+        $(":submit").click(function () {
+            let $studentId = $("#studentId").val();
+            window.location.href = "/student/detail/" + $studentId;
+        })
+        $("#studentId").keyup(function () {
+            if (event.keyCode === 13){
+                $(":submit").click()
+            }
+            let $studentId = $("#studentId").val()
+            if ($studentId >= 0) {
+                if ($studentId === "") {
+                    $(":submit").prop("disabled", true);
+                } else {
+                    $(":submit").prop("disabled", false);
+                }
+            }
+        })
+    })
+</script>
+<style>
+    * {
+        font-family: "Nexa Bold";
+    }
+
+    h2 {
+        font-size: xxx-large;
+    }
+
+    div {
+        font-size: x-large;
+    }
+
+    input {
+        font-size: large;
+        padding: 5px;
+    }
+
+    #studentId {
+        padding-left: 10px;
+    }
+
+</style>
 <body>
 <h2 align="center">Check Student's Detail</h2>
 <div align="center" class="studentDetail">
     <input type="text" placeholder="Student's ID" id="studentId">
-    <input type="submit" value="Submit" th:onclick="submit()">
+    <input type="submit" value="Submit" disabled>
+</div>
+<br>
+<div align="center">
+    Total number of students : <span th:text="${studentCount}"></span>
 </div>
 </body>
-<script type="text/javascript" th:inline="javascript">
-    function submit() {
-        let studentId = document.getElementById("studentId").value;
-        window.location.href = "/student/detail/" + studentId;
-    }
-</script>
 </html>

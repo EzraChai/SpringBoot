@@ -9,4 +9,6 @@ public interface StudentService {
      * @return
      */
     Student queryStudentById(Integer id);
+
+    int queryStudentCount();
 }
